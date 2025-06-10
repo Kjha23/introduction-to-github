@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+<body>
+    <h1 style.color="red" >Hello World</h1>
+<p>I am Keshav Jha</p>
+<img src="c:\Users\HP\Downloads\layba.jpg" height="300px" width="300px">
+<div><a href="https://yugasa.com/">Click Here</a>
+</div>
+
+<h2>List In HTML</h2>
+<p>Unordered List</p>
+<ul>
+    <li>Contact</li>
+    <li>Location</li>
+    <li>Services</li>
+</ul>
+
+<p>Ordered List</p>
+<ol>
+    <li>Contact</li>
+    <li>Location</li>
+    <li>Services</li>
+</ol>
+
+<H2>Table In HTML</H2>
+<table>
+
+    <tr>
+        <th>Name</th>
+        <th>Class</th>
+        <th>Loc</th>
+    </tr>
+        
+    
+    <tr>
+        <td>Keshav</td>
+        <td>BCA</td>
+        <td>New Delhi</td>
+
+    </tr>
+    <tr>
+        <td>Keshav</td>
+        <td>BCA</td>
+        <td>New Delhi</td>
+
+    </tr>
+    <tr>
+        <td>Keshav</td>
+        <td>BCA</td>
+        <td>New Delhi</td>
+
+    </tr>
+    <tr>
+        <td>Keshav</td>
+        <td>BCA</td>
+        <td>New Delhi</td>
+
+    </tr>
+</table>
+
+<H1>Form In HTML</H1>
+<form action="form.php">
+    <label for="fname">Enter Your Name</label><br>
+<input type="text" placeholder="Name"><br>
+<label for="fname">Enter Your Reg No</label><br>
+<input type="text" placeholder="Name"><br>
+<label for="fname">Enter Your Marks</label><br>
+<input type="text" placeholder="Name">
+<br>
+<h2>Enter Your Fav Subject !</h2>
+<label for="favsub">Science</label>
+<input type="checkbox"><br>
+<label for="favsub">Science</label>
+<input type="checkbox"><br>
+<label for="favsub">Science</label>
+<input type="checkbox"><br>
+<label for="favsub">Science</label>
+<input type="checkbox">
+<br>
+<h2>Enter Any one </h2>
+<label for="anyone">Grade A</label>
+<input type="radio" value="anyone" id="anyone" name="anyone"><br>
+<label for="anyone" >Grade A</label>
+<input type="radio" value="anyone" id="anyone" name="anyone"><br>
+<label for="anyone">Grade A</label>
+<input type="radio" value="anyone" id="anyone" name="anyone">
+</form>
+
+<input type="submit" value="submit">
+<br>
+
+<select id="Cars">
+    <option value="Select Your Car">Select Your Car</option>
+    <option value="Thar">Thar</option>
+    <option value="Thar">Thar</option>
+<option value="Thar">Thar</option>
+<option value="Thar">Thar</option>
+<option value="Thar">Thar</option>
+
+
+    <
+</select>
+
+
+
+
+<br>
+
+
+</body>
+<style>
+   th ,td, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+   }
+</style>
