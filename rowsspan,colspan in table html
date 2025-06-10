@@ -1,0 +1,36 @@
+<!doctype html>
+<htmL>
+    <body>
+        <table>
+            <tr>
+                <th rowspan="2">Items</th>
+                <th colspan="3">Price</th>
+            </tr>
+            <tr>
+                <th>India</th>
+                <th>USD</th>
+                <th>Paisa</th>
+            </tr>
+
+            <tr>
+                <td>Maaza</td>
+                <td>10</td>
+                <td>1</td>
+                <td>33</td>
+                
+            </tr>
+            <tr>
+                <td>Frooti</td>
+                <td>23</td>
+                <td>2</td>
+                <td>23 b</td>
+            </tr>
+        </table>
+    </body>
+</htmL>
+<style>
+   table, tr,th,td{
+        border: 2px solid red;
+        border-collapse: collapse;
+    }
+</style>
