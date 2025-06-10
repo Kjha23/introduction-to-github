@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<body>
+    <H1>Form In HTML For Introduction Purpose</H1>
+
+    <form action="form.php">
+
+        <label for="fname"><b>Enter Your Full Name !</b></label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="mail"><b>Enter Your Gmail !</b></label><br>
+        <input type="gmail" id="gmail" name="gmail"><br>
+        <label for="password"><b>Enter Your Password !</b><br></label>
+        <input type="password" id="password" name="password">
+
+    </form>
+    <h2> Form For Selective things</h1>
+    <p>Select your Fav Programming Language</p>
+    <form action="form.php">
+        <input type="checkbox" id="yes" name="yes">
+        <label for="yes">Java</label><br>
+        <input type="checkbox" id="yes" name="yes">
+        <label for="yes">Python</label><br>
+        <input type="checkbox" id="yes" name="yes">
+        <label for="yes">HTML</label><br>
+        <input type="checkbox" id="yes" name="yes">
+        <label for="yes">JavaScript</label>
+    </form>
+
+    <h2>Form To Select only one</h2>
+    <p>Pls Select Your Qualification</p>
+    <form action="form.php">
+        <input type="radio" id="yyes" name="yyes">
+        <label for="yyes">10th</label><br>
+        <input type="radio" id="yyes" name="yyes">
+        <label for="yyes">12th</label><br>
+        <input type="radio" id="yyes" name="yyes">
+        <label for="yyes">Under Graduate</label><br>
+        <input type="radio" id="yyes" name="yyes">
+        <label for="yyes">Post Graduate</label><br>
+        <input type="radio" id="yyes" name="yyes">
+        <label for="yyes">PHD</label>
+    </form>
+    <br><br>
+
+
+    <h2>Select Tag In Html</h2>
+    <p>Select Your fav Country</p>
+    <select>
+        <option value="Select Your Country">Select Your Country</option>
+        <option value="India">India</option>
+        <option value="Russia">Russia</option>
+        <option value="America">America</option>
+        <option value="England">England</option>
+        <option value="SriLanka">SriLanka</option>
+        <option value="Uganada">Uganda</option>
+        <option value="South Africa">South Africa</option>
+        <option value="Israil">Israil</option>
+        <option value="China">China</option>
+    </select>
+</body>
