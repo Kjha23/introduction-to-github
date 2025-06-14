@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+    <body>
+        <h2>Keshav Jha</h2>
+        <p><b><b>I Love Coding :-</b>)</b></p>
+        <img src="c:\Users\HP\Downloads\keshavvvvv.jpg" height="100px" width="100px">
+        <hr>
+        <h2>Education</h2>
+        <ul>
+            <li><b>Class X(CBSE):10 CGPA</b></li>
+            <li><b>Class Xii(CBSE):87%</b></li>
+            <li><b>BCA(MDU):76%</b></li>
+            
+        </ul>
+        <hr>
+        <h2>Skills</h2>
+        <ul>
+            <li><b>HTML,CSS,JavaScript</b></li>
+            <li><b>C,C++,C#</b></li>
+            <li><b>Java,Python</b></li>
+        </ul>
+        <hr>
+        <h2>Hobbies</h2>
+        <ul>
+            <li><b>Reading Books</b></li>
+            <li><b>Writing Story</b></li>
+            <li><b>Singing Song</b></li>
+        </ul>
+        <hr>
+        <h2>Contact</h2>
+        <ul>
+            <li><b>Email :-</b>kesukesukesu@gmail.com</li>
+            <li><a href="www.facebook.com">Facebook</a></li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">Items</th>
+                    <th colspan="2">Costs</th>
+                </tr>
+                <tr>
+                    <th>Indian</th>
+                    <th>USD</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Frooti</td>
+                    <td>34</td>
+                    <td>23</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+        <button>Click on me</button><br>
+        <input type="radio" id="yes" name="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="n0" name="yes">
+        <label for="no">No</label>
+    </body>
+    <style>
+        table,th,tr,td{border: 2px solid red;}
+        button{
+            background-color: red;
+            color: green;
+            
+        }
+        button:hover{
+                background-color: yellow;
+                color:black;
+            }
+            button:active{
+                background-color: blue;
+            }
+            input[type=radio]:checked+label{
+                font-weight: bold;
+                color: red;
+            }
+    </style>
+</html>
