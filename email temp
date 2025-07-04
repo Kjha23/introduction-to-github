@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Minaions Email Templates</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f6f6f6; margin: 0; padding: 0; }
+    .container { background-color: #ffffff; max-width: 600px; margin: 40px auto; padding: 0; border: 1px solid #ddd; }
+    .top-strip img { width: 100%; }
+    .top-strip {
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+    .header { font-size: 24px; font-weight: bold; color: #2a2a2a; margin: 20px 20px 10px 20px; }
+    .content { font-size: 16px; color: #333333; line-height: 1.5; margin: 0 20px; }
+    .bullet-list { margin: 15px 0 20px 0; padding: 0 20px; list-style: none; }
+    .bullet-list li { display: flex; align-items: center; margin-bottom: 10px; }
+    .bullet-list li::before { content: ''; background-image: url('https://cdn-icons-png.flaticon.com/512/892/892692.png'); background-size: cover; width: 20px; height: 20px; border-radius: 50%; margin-right: 10px; }
+    .main-image, .side-image { width: 100%; height: auto; }
+    .image-grid { display: flex; justify-content: space-between; margin: 20px; }
+    .image-grid img { width: 48%; height: auto; border-radius: 6px; }
+    .cta-button { display: inline-block; background-color: #5252f7; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin: 10px 20px 30px 20px; }
+    .footer-strip { background-color: #5252f7; color: white; display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; font-size: 14px; }
+    .social-icons img { height: 18px; margin-left: 10px; filter: brightness(0) invert(1); }
+    .testimonial-box { background-color: #f2f2f2; padding: 15px; border-radius: 8px; margin: 20px; font-style: italic; }
+    @media screen and (max-width: 600px) {
+      .top-strip, .footer-strip { flex-direction: column; text-align: center; }
+      .social-icons { margin-top: 10px; }
+      .image-grid { flex-direction: column; }
+      .image-grid img { width: 100%; margin-bottom: 10px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Template A -->
+  <div class="container">
+    <div class="top-strip">
+      <img src="Top-Banner.jpg" alt="Minaions Logo" />
+    </div>
+    <img class="main-image" src="wlc-banner.png" alt="Welcome Banner" />
+    <div class="header">Welcome to Minaions</div>
+    <div class="content">
+      <p>Thanks for joining Minaions. We are excited to help you automate your tendering process.</p>
+      <ul class="bullet-list">
+        <li>Free registration, free company profile setup</li>
+        <li>Get 5000 credits preloaded to explore features</li>
+        <li>Daily tender alerts and bidding tools</li>
+      </ul>
+    </div>
+    <a href="https://app.minaions.com/login" class="cta-button">Get Started</a>
+    <div class="footer-strip">
+      <span>Contact us at <a style="color: white; text-decoration: underline;" href="mailto:support@minaions.com">contact@minaions.com</a></span>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/company/minaions"><img src="Linkdin.png" alt="LinkedIn"></a>
+        <a href="https://twitter.com/minaions"><img src="X.png" alt="Twitter"></a>
+        <a href="https://www.youtube.com/@minaions"><img src="Youtube.png" alt="YouTube"></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Template B -->
+  <div class="container">
+    <div class="top-strip">
+      <img src="Top-Banner.jpg" alt="Minaions Logo" />
+      <span>www.minaions.com</span>
+    </div>
+    <div class="header">Still doing it the old way?</div>
+    <img class="main-image" src="https://via.placeholder.com/600x250.png?text=See+Minaions+in+Action" alt="Demo" />
+    <div class="content">
+      <p>While you're stuck with repetitive manual work, others have already switched. Minaions is doing the heavy lifting.</p>
+      <ul class="bullet-list">
+        <li>Submit more bids with same team</li>
+        <li>Automate tender search and bid prep</li>
+        <li>No fee to explore features</li>
+        <li>Use your 5000 free credits before expiry</li>
+      </ul>
+    </div>
+    <a href="https://app.minaions.com/login" class="cta-button">Boost My Workflow</a>
+    <div class="footer-strip">
+      <span>Contact us at <a style="color: white; text-decoration: underline;" href="mailto:support@minaions.com">contact@minaions.com</a></span>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/company/minaions"><img src="Linkdin.png" alt="LinkedIn"></a>
+        <a href="https://twitter.com/minaions"><img src="X.png" alt="Twitter"></a>
+        <a href="https://www.youtube.com/@minaions"><img src="Youtube.png" alt="YouTube"></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Template C -->
+  <div class="container">
+    <div class="top-strip">
+      <img src="Top-Banner.jpg" alt="Minaions Logo" />
+      <span>www.minaions.com</span>
+    </div>
+    <div class="header">How Minaions is already helping others</div>
+    <div class="testimonial-box">
+      “We tried Minaions for three tender submissions. The eligibility checker alone saved us days of manual effort.”<br />
+      <strong>— Director, Infra Firm</strong>
+    </div>
+    <div class="image-grid">
+      <img src="https://via.placeholder.com/290x180.png?text=Client+1" alt="Client 1" />
+      <img src="https://via.placeholder.com/290x180.png?text=Client+2" alt="Client 2" />
+    </div>
+    <div class="content">
+      <ul class="bullet-list">
+        <li>Faster bid preparation</li>
+        <li>Higher tender participation</li>
+        <li>Effective use of free credits</li>
+      </ul>
+    </div>
+    <a href="https://app.minaions.com/login" class="cta-button">Give It a Try</a>
+    <div class="footer-strip">
+      <span>Contact us at <a style="color: white; text-decoration: underline;" href="mailto:support@minaions.com">contact@minaions.com</a></span>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/company/minaions"><img src="Linkdin.png" alt="LinkedIn"></a>
+        <a href="https://twitter.com/minaions"><img src="X.png" alt="Twitter"></a>
+        <a href="https://www.youtube.com/@minaions"><img src="Youtube.png" alt="YouTube"></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Template D -->
+  <div class="container">
+    <div class="top-strip">
+      <img src="Top-Banner.jpg" alt="Minaions Logo" />
+      <span>www.minaions.com</span>
+    </div>
+    <div class="header">Feature Highlight: From Search to Submit</div>
+    <div class="content">
+      <p>Use Minaions in just 4 steps:</p>
+      <ul class="bullet-list">
+        <li><strong>Search:</strong> Find matching tenders daily</li>
+        <li><strong>Eligibility:</strong> Built-in criteria checker</li>
+        <li><strong>Bid Builder:</strong> Auto-document generation</li>
+        <li><strong>Review & Submit:</strong> Validate before submission</li>
+      </ul>
+    </div>
+    <img class="main-image" src="https://via.placeholder.com/600x250.png?text=Step-by-Step+Tender+Automation" alt="Workflow" />
+    <a href="https://app.minaions.com/login" class="cta-button">Try the 4-Step Workflow</a>
+    <div class="footer-strip">
+      <span>Contact us at <a style="color: white; text-decoration: underline;" href="mailto:support@minaions.com">contact@minaions.com</a></span>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/company/minaions"><img src="Linkdin.png" alt="LinkedIn"></a>
+        <a href="https://twitter.com/minaions"><img src="X.png" alt="Twitter"></a>
+        <a href="https://www.youtube.com/@minaions"><img src="Youtube.png" alt="YouTube"></a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+apps-fileview.texmex_20250619.00_p0
+minaions_email_template_Final.html
+Displaying minaions_email_template_Final.html.
