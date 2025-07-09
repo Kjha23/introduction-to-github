@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Minaions Email Templates</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f6f6f6; margin: 0; padding: 0; }
+    .container { background-color: #ffffff; max-width: 600px; margin: 40px auto; padding: 0; border: 1px solid #ddd; }
+    .top-strip img { width: 100%; }
+    .top-strip {
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+    .header { font-size: 24px; font-weight: bold; color: #2a2a2a; margin: 20px 20px 10px 20px; }
+    .content { font-size: 16px; color: #333333; line-height: 1.5; margin: 0 20px; }
+    .bullet-list { margin: 15px 0 20px 0; padding: 0 20px; list-style: none; }
+    .bullet-list li { display: flex; align-items: center; margin-bottom: 10px; }
+    .bullet-list li::before { content: ''; background-image: url('https://cdn-icons-png.flaticon.com/512/892/892692.png'); background-size: cover; width: 20px; height: 20px; border-radius: 50%; margin-right: 10px; }
+    .main-image, .side-image { width: 100%; height: auto; }
+    .image-grid { display: flex; justify-content: space-between; margin: 20px; }
+    .image-grid img { width: 48%; height: auto; border-radius: 6px; }
+    .cta-button { display: inline-block; background-color: #5252f7; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin: 10px 20px 30px 20px; }
+    .footer-strip {  color: white; display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; font-size: 14px; }
+    .social-icons img { height: 18px; margin-left: 10px; filter: brightness(0) invert(1); }
+    .testimonial-box { background-color: #f2f2f2; padding: 15px; border-radius: 8px; margin: 20px; font-style: italic; }
+    #copyright{
+      background-color:#5252f7;
+      text-align: center;
+      font-size: small;
+      color: white;
+      height: 153px;
+    }
+    #spann{
+      color: white;
+    }
+    #copy{
+      display: flex;
+      margin-top: 20px;
+      padding-left:10px;
+      justify-content: space-between;
+    }
+    b{
+      color: antiquewhite;
+    }
+    #cc{
+  padding-right: 20px;
+  padding-bottom: 10px;
+text-align: right;   }
+  #note{
+    padding:-20px 0px 0px 20px;
+    margin:-15px 0px 0px 10px ;
+    text-align: left;
+  }
+ 
+     @media screen and (max-width: 600px) {
+      .top-strip, .footer-strip { flex-direction: column; text-align: center; }
+      .social-icons { margin-top: 10px; }
+      .image-grid { flex-direction: column; }
+      .image-grid img { width: 100%; margin-bottom: 10px; }
+    }
+  </style>
+</head>
+<body>
+<!-- Template B-->
+  <div class="container">
+    <div class="top-strip">
+      <img src="https://vidyuterp.yugasa.org/assets/images/mobil-mailer/Campaign-Mail/image/linkedin-Banner---Copy.jpg" alt="Minaions Logo" />
+    </div>
+    <img class="main-image" src="https://vidyuterp.yugasa.org/assets/images/mobil-mailer/Campaign-Mail/image/Email-2-%e2%80%93-Template-B.png"alt="Welcome Banner" />
+    <div class="header">Still doing it the old way?</div>
+    <div class="content">
+      <p>Manual tendering might feel familiar, but it’s holding your team back.Minaions brings speed, precision, and peace of mind — all in one smart platform.</p>
+      <p>Why stay stuck in the past when smarter bidding is just a click away?</p>
+      <ul class="bullet-list">
+        <li>Submit more tenders with your existing team</li>
+        <li>Let automation handle repetitive prep work</li>
+        <li>Explore everything with your 5000 free credits</li>
+        <li>Join daily webinars to master it all in under 30 minutes</li>
+      </ul>
+    </div>
+    <a href="https://app.minaions.com/login" class="cta-button">Boost My Workflow</a>
+    <div id="copyright">
+    <div class="footer-strip">
+      <span>Contact us at <a style="color: white; text-decoration: underline;" href="mailto:support@minaions.com">contact@minaions.com</a></span>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/minaions/"><img src="c:\Users\HP\OneDrive\Desktop\Facebook.png">  </a>
+<a href="https://www.linkedin.com/company/minaions"><img src="https://vidyuterp.yugasa.org/assets/images/mobil-mailer/Campaign-Mail/image/Linkdin.png" alt="LinkedIn"></a>
+        <a href="https://x.com/Minaions_AI?t=Kem2e_sf48BpbTMZwZWI1A&s=09"><img src="https://vidyuterp.yugasa.org/assets/images/mobil-mailer/Campaign-Mail/image/X.png" alt="Twitter"></a>
+        <a href="https://youtube.com/@minaions_ai?si=uODcD03aDp6bctst"><img src="https://vidyuterp.yugasa.org/assets/images/mobil-mailer/Campaign-Mail/image/Youtube.png" alt="YouTube"></a>
+        
+      </div>
+    
+      </div>
+     <div id="copy">
+      <div id="note">
+      <p id="br">You are receiving this<br>
+email from Minaions AI <br>
+for Tenders Automation<br>
+because you are a <br>
+registered customer.</p>
+</div>
+<div id="cc">
+      <p>3rd Floor, T-B, Unitech Cyber Park,<br> Sector 39, Gurgaon 122003</p>
+      <p><b>© 2025 Minaions. All Rights Reserved</b><p>
+      </div>
+        </div>
+        
+      </div>
+     
+  </div>
+
+
+ 
+
+
+
+  
